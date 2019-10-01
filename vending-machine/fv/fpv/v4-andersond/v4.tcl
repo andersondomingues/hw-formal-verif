@@ -1,7 +1,8 @@
 clear -all
 
 # analyze the design
-analyze -vhdl ../../../rtl/v4/t4.vhd ;
+# analyze -vhdl ../../../rtl/v4/t4.vhd ;
+analyze -vhdl t4.modified.vhd ;
 # Analyze property files
 analyze -sva bindings.sv properties_v4.sv ;
 
